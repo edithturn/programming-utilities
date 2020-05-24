@@ -1,0 +1,6 @@
+1 Peru
+2 Argentina
+3 Mexico
+4 EEUU
+5 Sweden
+6 Nigeria
