@@ -12,7 +12,8 @@ int main(){
 
 	while(feof(flow) == 0){
 		fscanf(flow, "%d %s", &num, str);
-		num = num + 1;
+		//Changing the value of the stored variable
+		num *= 10;
 		printf("%d %s\n" , num, str);
 	}
 	fclose(flow);
