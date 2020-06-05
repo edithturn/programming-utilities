@@ -21,8 +21,9 @@ int main()
 	{
 		buf[ret] = '\0';
 		printf("%s", buf);
-		printf("%u\n", ret);
+		printf("%u\n", ret);		
 	}
+	printf("-->> FD %u \n", fd);
 	if (close(fd) == -1)
 	{
 		printf("close error");
