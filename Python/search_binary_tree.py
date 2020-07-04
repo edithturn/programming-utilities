@@ -6,7 +6,7 @@ class Node(object):
 
 class BinarySearchTree(object):
 	def insert (self, root, node):
-		if	root is Node:
+		if	root is None:
 			return node
 		if	root.val < node.val:
 			root.r_child = self.insert(root.r_child, node)
@@ -48,5 +48,5 @@ for nd in nodeList:
 
 
 print (node.in_order_place(r))
-print (node.pre_order_place(r))
-print (node.post_order_place(r))
+#print (node.pre_order_place(r))
+#print (node.post_order_place(r))
