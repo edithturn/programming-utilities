@@ -41,11 +41,10 @@ class BinarySearchTree(object):
 
 r = Node(3)
 node = BinarySearchTree()
-nodeList = [1, 8, 5, 12, 14, 6, 15, 7, 16, 8]
+nodeList = [1, 8, 5]
 
 for nd in nodeList:
 	node.insert(r, Node(nd))
-
 
 print (node.in_order_place(r))
 #print (node.pre_order_place(r))
