@@ -46,6 +46,6 @@ nodeList = [1, 8, 5]
 for nd in nodeList:
 	node.insert(r, Node(nd))
 
-print (node.in_order_place(r))
-#print (node.pre_order_place(r))
+#print (node.in_order_place(r))
+print (node.pre_order_place(r))
 #print (node.post_order_place(r))
